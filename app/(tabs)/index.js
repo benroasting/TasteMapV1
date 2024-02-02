@@ -1,16 +1,16 @@
 import { View, Text, StyleSheet } from "react-native";
 import { Link } from "expo-router";
 
-import Colors from "../constants/Colors";
+import Colors from "../../constants/Colors";
 
 const Index = () => {
   return (
     <View style={styles.homeContainer}>
       <Text style={styles.title}>taste map</Text>
 
-      <Link href="/coffeeJournal">add a coffee</Link>
-      <Link href="/coffeeMap">your taste map</Link>
-      <Link href="/coffeeRecord">your coffee journal</Link>
+      <Link href="user/coffeeRecord">add a coffee</Link>
+      <Link href="user/coffeeMap">your taste map</Link>
+      <Link href="user/coffeeJournal">your coffee journal</Link>
     </View>
   );
 };
