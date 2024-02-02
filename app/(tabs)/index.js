@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import { Link } from "expo-router";
 
-import Colors from "../../constants/Colors";
+import { COLORS } from "../../constants/theme";
 
 const Index = () => {
   return (
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   title: {
     fontFamily: "work-sans",
     fontSize: 48,
-    color: Colors.cerulean,
+    color: COLORS.cerulean,
     textAlign: "center",
   },
 });

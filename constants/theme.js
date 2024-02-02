@@ -1,4 +1,4 @@
-const Colors = {
+const COLORS = {
   clean: "#A7D2CB",
   morningSky: "#CAE4DB",
   mist: "#7A9D96",
@@ -9,4 +9,4 @@ const Colors = {
   cerulean: "#00303F",
 };
 
-export default Colors;
+export { COLORS };
