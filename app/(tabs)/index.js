@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
     margin: 40,
   },
   title: {
-    fontFamily: "work-sans",
     fontSize: 48,
     color: COLORS.cerulean,
     textAlign: "center",

@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Input } from "react-native";
 import { COLORS } from "../../../constants/theme";
 
 const coffeeRecord = () => {
@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     margin: 40,
   },
   title: {
-    fontFamily: "work-sans",
     fontSize: 24,
     color: COLORS.salmon,
     textAlign: "center",
